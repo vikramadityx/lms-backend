@@ -1,5 +1,5 @@
 const Transaction = require('../models/transaction');
-const Book = require('../models/Book');
+const Book = require('../models/book');
 
 // Create a new transaction (lend a book)
 const createTransaction = async (req, res) => {
